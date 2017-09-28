@@ -1,0 +1,27 @@
+{
+  "name": "socket-chatroom",
+  "version": "1.0.0",
+  "description": "A socketio based chatroom",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonydroberts1243/socket.io-Chatroom.git"
+  },
+  "keywords": [
+    "heroku"
+  ],
+  "author": "Anthony Roberts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonydroberts1243/socket.io-Chatroom/issues"
+  },"engines": {
+    "node": "6.11.3"
+  },
+  "homepage": "https://github.com/tonydroberts1243/socket.io-Chatroom#readme",
+  "dependencies": {
+    "socket.io": "^2.0.3"
+  }
+}
