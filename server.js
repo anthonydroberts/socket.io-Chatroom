@@ -8,9 +8,9 @@ var fs = require('fs');
 var url = require('url');
 const ROOT = "./files";
 
-http.listen(2406);
+http.listen(process.env.PORT || 5000);
 
-console.log("Chat server listening on port 2406");
+console.log("Chat server listening on port 5000");
 
 
 function handler(req,res){
